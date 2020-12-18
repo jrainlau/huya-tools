@@ -4,6 +4,11 @@
   "version": "0.0.1",
   "description": "虎牙助手",
   "homepage_url": "https://github.com/jrainlau/huya-tools",
+  "icons": {
+    "16": "imgs/logo.png",
+    "48": "imgs/logo.png",
+    "128": "imgs/logo.png"
+  },
   "content_scripts": [
       {
           "matches": ["https://www.huya.com/*"],
