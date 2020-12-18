@@ -1,0 +1,73 @@
+.game-live-item.block-this-anchor {
+  background: pink;
+  display: none;
+}
+
+.block-btn {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 2px 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.block-btn:hover {
+  color: #f80;
+}
+
+.block-list-wrap {
+  transform: translateX(200px);
+  transition: all .3s ease;
+  position: fixed;
+  top: 10%;
+  right: 0;
+  height: 315px;
+  background: #fff;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+}
+.block-list-wrap:hover {
+  transform: translateX(0);
+}
+.block-list-title {
+  writing-mode: vertical-lr;
+  text-align: center;
+  padding: 0 5px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  background: #ddd;
+  cursor: default;
+}
+.block-list {
+  height: 100%;
+  width: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.block-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+.block-link {
+  display: inline-flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.block-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.block-list-item .block-btn {
+  margin: 0;
+}
